@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="200dp"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:padding="5dp"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/milk"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:src="@drawable/img">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/tv_item1_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="MILK"
+            android:textSize="25sp"
+            android:textAlignment="center">
+
+        </TextView>
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:textSize="15sp"
+            android:textAlignment="center">
+
+        </TextView>
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="20EGP"
+            android:textSize="20sp"
+            android:textAlignment="center">
+
+        </TextView>
+    </LinearLayout>
+
+
+</LinearLayout>
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="16dp"
+        android:text="+1" />
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="-1" />
+
+
+</androidx.cardview.widget.CardView>
